@@ -1,0 +1,64 @@
+﻿@model PrediksiMonteCarlo.Models.Pengguna
+
+@{
+    Layout = null;
+}
+
+<header>
+    <link rel="stylesheet" href="~/css/LoginStyle.css" asp-append-version="true" />
+</header>
+
+<body>
+    
+    <script type="text/javascript">function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };</script>
+
+    <div class="container" style="height:max-content">
+
+        <div class="screen">
+
+            <div class="screen__content">
+                <form method="post" class="login">
+                    <div class="login__field">
+                        <i class="login__icon fas fa-user"></i>
+                        <input asp-for="Username" type="text" class="login__input" placeholder="Username">
+                    </div>
+                    <span style="color:red" asp-validation-for="Username" class="text-danger"></span>
+                    <div class="login__field">
+                        <i class="login__icon fas fa-lock"></i>
+                        <input asp-for="Password" type="password" class="login__input" placeholder="Password">
+                    </div>
+                    <span style="color:red" asp-validation-for="Password" class="text-danger"></span>
+                    <button type="submit" asp-route="Login" class="button login__submit">
+                        Log In Now
+                        <i class="button__icon fas fa-chevron-right"></i>
+                    </button>
+                    <span style="color:red">@TempData["Error"]</span>
+
+                </form>
+                <div class="social-login">
+                    <h3>Prediksi Montecarlo</h3>
+
+                    @*<div class="social-icons">
+                            <a href="#" class="social-login__icon fab fa-instagram"></a>
+                            <a href="#" class="social-login__icon fab fa-facebook"></a>
+                            <a href="#" class="social-login__icon fab fa-twitter"></a>
+                        </div>*@
+                </div>
+            </div>
+            <div class="screen__background">
+                <span class="screen__background__shape screen__background__shape4"></span>
+                <span class="screen__background__shape screen__background__shape3"></span>
+                <span class="screen__background__shape screen__background__shape2"></span>
+                <span class="screen__background__shape screen__background__shape1"></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+
+}

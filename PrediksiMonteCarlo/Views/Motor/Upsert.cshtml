@@ -1,0 +1,93 @@
+﻿@model PrediksiMonteCarlo.ViewModels.MotorVM
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "Create Motor";
+}
+
+<div class="card shadow border-0 mt-4">
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Create Merk</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body p-4">
+        <form method="post" class="row">
+
+            <div class="row p-3 border">
+
+                @if (Model.Motor.Id != 0)
+                {
+                    title = "Edit Motor";
+                }
+
+                <input type="hidden" asp-for="@Model.Motor.Id" />
+
+                <div asp-validation-summary="ModelOnly"></div>
+
+                <div class="col-12 border-bottom">
+                    <h2 class="text-primary">@title</h2>
+                </div>
+                <div class="col-8 pt-4">
+                    <div class="form-group row">
+                        <div class="col-4">
+                            <label asp-for="Motor.NamaMotor"></label>
+                        </div>
+                        <div class="col-8">
+                            <input asp-for="Motor.NamaMotor" class="form-control" />
+                            <span asp-validation-for="Motor.NamaMotor" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row" style="padding-bottom:20px; padding-top:20px">
+                        <div class="col-4">
+                            Merk
+                        </div>
+                        <div class="col-8">
+
+                            <select asp-for="@Model.Motor.Merk" asp-items="@Model.MerkList" class="form-select border-0 shadow">
+                                <option disabled selected>--Select Category--</option>
+                            </select>
+
+                            @*@Html.DropDownListFor(x => x.Motor.NamaMotor, Model.ListMerk, "SELECT A CATEGORY",
+                            new { @class = "form-control" })*@
+                            <span asp-validation-for="Motor.Merk" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row" style="padding-bottom: 20px">
+                        <div class="col-4">
+                            <label asp-for="Motor.Harga"></label>
+                        </div>
+                        <div class="col-8">
+                            <input asp-for="Motor.Harga" class="form-control" />
+                            <span asp-validation-for="Motor.Harga" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-8 offset-4" style="padding-top:20px">
+                            @if (Model.Motor.Id != 0)
+                            {
+                                <partial name="_EditAndBackToListButton" model="Model.Motor.Id" />
+                            }
+                            else
+                            {
+                                <partial name="_CreateAndBackToListButton" />
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

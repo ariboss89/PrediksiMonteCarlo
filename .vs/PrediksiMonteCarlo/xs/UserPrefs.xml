@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{695E572D-F557-4F0D-A204-5A74197F5D21}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.PrediksiMonteCarlo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PrediksiMonteCarlo" expanded="True" selected="True">
+            <Node name="PrediksiMonteCarlo" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Merk" expanded="True" />
+                <Node name="Prediksi" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="images" expanded="True" />
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

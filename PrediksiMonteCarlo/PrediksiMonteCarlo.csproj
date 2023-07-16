@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>8445de38-0c09-4181-b29e-0e18b5a9d1e7</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.8">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.14" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Syncfusion.EJ.AspNet.Core" Version="20.4.0.44" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Data\" />
+    <None Remove="Views\Merk\" />
+    <None Remove="Views\Motor\" />
+    <None Remove="ViewModels\" />
+    <None Remove="Views\Penjualan\" />
+    <None Remove="Views\Prediksi\" />
+    <None Remove="SD\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Views\Merk\" />
+    <Folder Include="Views\Motor\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Views\Penjualan\" />
+    <Folder Include="Views\Prediksi\" />
+    <Folder Include="SD\" />
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\images\" />
+  </ItemGroup>
+</Project>

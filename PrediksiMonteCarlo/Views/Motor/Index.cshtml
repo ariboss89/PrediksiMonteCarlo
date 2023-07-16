@@ -1,0 +1,60 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "List Motor";
+}
+
+@model List<Motor>
+
+<br />
+<div class="row">
+    <div class="col-6">
+        <h2 class="text-primary">Merk List </h2>
+    </div>
+    <div class="col-6 text-end">
+        <a class="btn btn-primary" asp-action="Upsert"> <i class="fas fa-plus"></i> &nbsp; Create New Motor</a>
+    </div>
+</div>
+
+<br />
+<div class="p-4 border rounded" style="text-align:center;">
+    <table id="tblData" class="table table-striped table-bordered" style="width:100%; padding-top:10px">
+        <thead class="thead-dark">
+            <tr class="table-info">
+                <th>Nama Motor</th>
+                <th>Merk</th>
+                <th>Harga</th>
+                <th class="text-center">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var obj in Model)
+            {
+                <tr>
+                    <td>
+                        @obj.NamaMotor
+                    </td>
+                    <td>
+                        @obj.Merk
+                    </td>
+                    <td>
+                        @obj.Harga
+                    </td>
+
+                    <td>
+                        <div class="w-75 btn-group" role="group">
+                            <a asp-controller="Motor" asp-action="Upsert" asp-route-id="@obj.Id" class="btn btn-primary mx-2">
+                                <i class="bi bi-pencil-square"></i> Edit
+                            </a>
+
+                            <a asp-controller="Motor" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-danger mx-2">
+                                <i class="bi bi-trash3"></i> Delete
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
