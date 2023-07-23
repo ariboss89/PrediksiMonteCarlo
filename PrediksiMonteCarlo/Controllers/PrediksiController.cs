@@ -26,8 +26,7 @@ namespace PrediksiMonteCarlo.Controllers
         {
             _db = db;
         }
-
-        
+       
         public IActionResult Index()
         {
             PrediksiVM pnjVM = new PrediksiVM()
@@ -134,7 +133,6 @@ namespace PrediksiMonteCarlo.Controllers
 
             if (data.Count != 0)
             {
-
                 //rekap data dulu
                 var ListOfMonths = data.GroupBy(x => x.Bulan)
                                       .Select(g => g.First())
@@ -280,6 +278,7 @@ namespace PrediksiMonteCarlo.Controllers
                 Dictionary<string, int> tahunBulan = new Dictionary<string, int>();
 
                 List<string> listBulanAcak = new List<string>();
+
                 int tahunFix = 0;
 
                 for (int i = 0; i < listBulan.Count; i++)

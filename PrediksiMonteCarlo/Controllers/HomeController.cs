@@ -25,18 +25,19 @@ public class HomeController : Controller
             return RedirectToAction("Login");
         }
 
-        //var data = _db.Penggunas.Where(x => x.Username == png.Username).FirstOrDefault();
-
-        //var role = data.Roles;
-
-        //StaticDetails_Login.Roles = role;
-
         return View();
     }
 
     [HttpGet]
     public IActionResult Login()
     {
+        if (StaticDetails_Login.Roles != null)
+        {
+            StaticDetails_Login.Roles = null;
+
+            return RedirectToAction("Index");
+        }
+
         return View();
     }
 

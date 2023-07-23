@@ -82,7 +82,7 @@ function Search() {
     var harga = $("txtHarga").val();
    
     // build json object
-    var penjualanx = {
+    var penjualan = {
         merk: merk,
         harga: harga
     };

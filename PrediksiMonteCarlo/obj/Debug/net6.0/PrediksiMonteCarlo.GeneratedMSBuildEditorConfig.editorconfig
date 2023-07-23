@@ -8,93 +8,93 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PrediksiMonteCarlo
 build_property.RootNamespace = PrediksiMonteCarlo
-build_property.ProjectDir = /Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/
+build_property.ProjectDir = /Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo
+build_property.MSBuildProjectDirectory = /Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Home/Index.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Home/Login.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Home/Privacy.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Merk/Delete.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Merk/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVyay9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Merk/Index.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Merk/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVyay9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Merk/Upsert.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Merk/Upsert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVyay9VcHNlcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Motor/Index.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Motor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW90b3IvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Motor/Upsert.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Motor/Upsert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW90b3IvVXBzZXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Penjualan/Index.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Penjualan/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVuanVhbGFuL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Penjualan/Upsert.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Penjualan/Upsert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVuanVhbGFuL1Vwc2VydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Prediksi/Index.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Prediksi/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlZGlrc2kvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Prediksi/Print.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Prediksi/Print.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlZGlrc2kvUHJpbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Shared/Error.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Shared/_CreateAndBackToListButton.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Shared/_CreateAndBackToListButton.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19DcmVhdGVBbmRCYWNrVG9MaXN0QnV0dG9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Shared/_DeleteAndBackToListButton.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Shared/_DeleteAndBackToListButton.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19EZWxldGVBbmRCYWNrVG9MaXN0QnV0dG9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Shared/_EditAndBackToListButton.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Shared/_EditAndBackToListButton.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19FZGl0QW5kQmFja1RvTGlzdEJ1dHRvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Shared/_Notification.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Shared/_Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/_ViewImports.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/_ViewStart.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Shared/_Layout.cshtml]
+[/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tqn28a97jo

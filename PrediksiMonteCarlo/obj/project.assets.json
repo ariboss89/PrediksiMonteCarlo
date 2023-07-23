@@ -12975,11 +12975,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/PrediksiMonteCarlo.csproj",
+      "projectUniqueName": "/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/PrediksiMonteCarlo.csproj",
       "projectName": "PrediksiMonteCarlo",
-      "projectPath": "/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/PrediksiMonteCarlo.csproj",
+      "projectPath": "/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/PrediksiMonteCarlo.csproj",
       "packagesPath": "/Users/ariramadhan/.nuget/packages/",
-      "outputPath": "/Users/ariramadhan/Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/obj/",
+      "outputPath": "/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ariramadhan/.nuget/NuGet/NuGet.Config"

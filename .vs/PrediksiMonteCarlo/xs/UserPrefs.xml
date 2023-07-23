@@ -1,27 +1,36 @@
 ﻿<Properties StartupConfiguration="{695E572D-F557-4F0D-A204-5A74197F5D21}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.ItemProperties.PrediksiMonteCarlo PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="PrediksiMonteCarlo/Views/Prediksi/Index.cshtml">
+    <Files>
+      <File FileName="PrediksiMonteCarlo/SD/StaticDetails_Login.cs" />
+      <File FileName="PrediksiMonteCarlo/Controllers/HomeController.cs" Line="20" Column="6" />
+      <File FileName="PrediksiMonteCarlo/Models/Pengguna.cs" />
+      <File FileName="PrediksiMonteCarlo/Views/Motor/Index.cshtml" Line="11" Column="39" />
+      <File FileName="PrediksiMonteCarlo/Views/Penjualan/Index.cshtml" Line="1" Column="1" />
+      <File FileName="PrediksiMonteCarlo/Views/Prediksi/Index.cshtml" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PrediksiMonteCarlo" expanded="True" selected="True">
+          <Node name="PrediksiMonteCarlo" expanded="True">
             <Node name="PrediksiMonteCarlo" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="SD" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
                 <Node name="Merk" expanded="True" />
+                <Node name="Motor" expanded="True" />
+                <Node name="Penjualan" expanded="True" />
                 <Node name="Prediksi" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-                <Node name="images" expanded="True" />
                 <Node name="js" expanded="True" />
+                <Node name="lib" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -32,4 +41,16 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <DisabledProjects>
+    <String>RDLCDesign/RDLCDesign.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.PrediksiMonteCarlo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Controllers/PenjualanController.cs" relfile="PrediksiMonteCarlo/Controllers/PenjualanController.cs" line="149" column="1" />
+      <Breakpoint file="/Users/ariramadhan/Documents/Ariboss89/Projects/Web Projects/PrediksiMonteCarlo/PrediksiMonteCarlo/Controllers/PenjualanController.cs" relfile="PrediksiMonteCarlo/Controllers/PenjualanController.cs" line="178" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
