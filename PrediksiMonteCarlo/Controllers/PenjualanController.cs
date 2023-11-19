@@ -91,7 +91,15 @@ namespace PrediksiMonteCarlo.Controllers
                 }
                 else
                 {
-
+                    pnjVM.Penjualan.NamaMotor = data.NamaMotor;
+                    pnjVM.Penjualan.Merk = data.Merk;
+                    pnjVM.Penjualan.Harga = data.Harga;
+                    DateTime? tanggal = pnjVM.Penjualan.Tanggal;
+                    string bulan = tanggal?.ToString("MMMM");
+                    string tahun = tanggal?.ToString("yyyy");
+                    pnjVM.Penjualan.Tanggal = tanggal;
+                    pnjVM.Penjualan.Bulan = bulan;
+                    pnjVM.Penjualan.Tahun = tahun;
                     pnjVM.Penjualan.Merk = data.Merk;
                     _db.Penjualans.Update(pnjVM.Penjualan);
 

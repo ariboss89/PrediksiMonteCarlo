@@ -10,6 +10,7 @@ function loadDataTable() {
             "url": "/Penjualan/GetAll"
         },
         "columns": [
+           
             { "data": "namaMotor", "width": "20%" },
             { "data": "merk", "width": "20%" },
             { "data": "harga", "width": "10%" },
@@ -19,9 +20,9 @@ function loadDataTable() {
                 "data": "id",
                 "render": function (data) {
                     return `
-                <div class="w-75 btn-group" role="group">
+                <div class="w-100 btn-group" role="group">
 
-                <button href="/Penjualan/Upsert/${data}" class="btn btn-success form-control"> <i class="bi bi-pencil-square"></i>Edit</button>
+                <a href="/Penjualan/Upsert/${data}" class="btn btn-success form-control" style="cursor:pointer; margin-left:10px;"> <i class="bi bi-pencil-square"></i>Edit</a>
 
                         <button onclick=Delete("/Penjualan/Delete/${data}") class="btn btn-danger form-control" style="cursor:pointer; margin-left:10px;">
                         <i class="bi bi-trash3"></i>
